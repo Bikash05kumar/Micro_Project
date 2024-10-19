@@ -1,0 +1,257 @@
+*{
+margin: 0;
+padding: 0;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.nav{
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    z-index: 1000;
+    position: fixed;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    justify-content: space-around;
+    background-color: #6F6AF7;
+}
+h1{
+    font-family: "Delius Unicase", cursive;
+    font-size: 50px;
+    font-weight: 700;
+    align-items: center;
+}
+
+.option{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+p{
+    font-family: "DM Sans", sans-serif;
+    font-size: 26px;
+    line-height: 37px;
+    cursor: pointer;
+}
+button{
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content:space-around;
+    color: gray;
+    margin-left: 10px;
+    font-size: 15px;
+    height: 30px;
+    border: none;
+    width: 200px;
+    border-radius: 50px;
+    display: flex;
+    background-color: white;
+    margin-left: -40px;
+}
+
+.men{
+        width: 35px;
+        height: 5px;
+        background-color: white;
+        margin: 6px 0;
+}
+
+.card1{
+    height: 400px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 7.5vw;  
+    padding-left: 30px;
+    position: relative;
+}
+.png img{
+    position: fixed;
+    margin-left: -65px;
+    object-fit: cover;
+    height: 180px;
+    width: 55px;
+}
+.first{
+    height: 350px;
+    width: 300px;
+}
+.im{
+    object-fit: cover;
+    width: 365px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px #aaaaaa;
+}
+.second{
+    width: 830px;
+    height: 400px;
+    background: #E5D8FF;
+    border-radius: 10px;
+    margin-left: 60px;
+}
+.second p{
+    font-size: 20px;
+    padding: 10px;
+    opacity: 0.65;
+}
+
+
+
+.card2{
+    height: 400px;
+    width: 85vw;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 7.5vw; 
+}
+
+.box{
+    height: 100px;
+    width: 18vw;
+    color: white;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 5px 5px 5px #aaaaaa;
+}
+
+.box1{
+    background: #929DFF;
+}
+.box2{
+    background: #734CF2;
+}
+.box3{
+    background: #D288FF;
+}
+.box4{
+background: black;
+}
+
+.card3{
+    height: 400px;
+    margin-top: -150px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 7.5vw;  
+    margin-right: 7.5vw;
+    border-radius: 10px;
+    background-color: #483EFF;
+    position: relative;
+}
+
+.h img{
+    /* position: fixed; */
+    position: -webkit-sticky;
+    margin-top: 280px;
+    margin-left: -150px;
+    object-fit: cover;
+    height: 120px;
+    width: 120px;
+}
+
+.left{
+    height: 400px;
+    width: 350px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.f{
+    position: relative;
+    height: 70px;
+    width: 250px;
+    border-radius: 8px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.f p{
+    font-weight: 500;
+}
+
+.a{
+    border: none;
+    background: #BCE0F6;
+    color: black;
+}
+
+.b{
+    border: 3px solid white;
+    color: white;
+}
+
+.c{
+    border: 3px solid white;
+    color: white;
+}
+
+.right{
+    width: 800px;
+    height: 365px;
+    margin-top: 17px;
+    margin-right: 20px;
+    background: white;
+    border-radius: 10px;
+    /* position: relative; */
+}
+
+h2{
+font-family: sans-serif;
+color: #04285A;
+padding: 35px 25px;
+line-height: 10px;
+}
+
+h5{
+    font-family: sans-serif;
+    color: #04285A;
+    font-size: 15px;
+   padding-left: 40px;
+   line-height: 40px;
+}
+
+h5 span{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.btn{
+   margin-left: 42vw;
+   margin-top: 8vh;
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 120px;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 5px;
+    font-family: sans-serif;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   cursor: pointer;
+}
+
+.bott{
+    position: fixed;
+    z-index: 1001;
+    margin-left: 85.5vw;
+    margin-top: -90vh;
+    right: 0;
+}
